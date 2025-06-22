@@ -1,0 +1,180 @@
+import { ResumeData } from "../types";
+
+export const resumeData: ResumeData = {
+    name: "Jeremy Elam",
+    title: "Senior Software Engineer",
+    contact: {
+        email: "jelam2975@gmail.com",
+        phone: "+1(714)749-3853",
+        github: "https://github.com/jeremyelam1",
+        linkedin: "https://www.linkedin.com/in/jeremy-elam-7a5480102/",
+    },
+    summary:
+        "Full-stack software engineer with over 6 years of extensive experience in microservices architecture, API development, and cloud infrastructure. Proven expertise in developing scalable backend systems using multiple languages and frameworks, with primary focus on Golang, and building modern frontend applications with TypeScript and React. Skilled in designing and optimizing secure, scalable data event platforms, utilizing containerization technologies to support real-time data processing, visualization, and analysis. Experienced in implementing security best practices, cryptographic protocols, and monitoring & logging solutions to enhance platform reliability and operational insights.",
+    skills: [
+        {
+            category: "Backend Development",
+            skills: [
+                "Golang (Primary)",
+                "TypeScript",
+                "Python",
+                "Java",
+                "Node.js",
+                "gRPC & RESTful APIs & GraphQL",
+                "Gin (Go)",
+                "Go-chi (Go)",
+                "FastAPI (Python)",
+                "GraphQL (Go, TypeScript)",
+                "Spring Boot (Java)",
+                "Express (Node.js)",
+                "Flask (Python)",
+                "Django (Python)",
+                "API Development",
+                "Microservices Architecture",
+            ],
+        },
+        {
+            category: "Frontend Development",
+            skills: [
+                "TypeScript (Primary)",
+                "JavaScript",
+                "React",
+                "Svelte",
+                "Next.js",
+                "Tailwind CSS",
+                "SCSS",
+                "HTML5 & CSS3",
+                "Responsive Web Design",
+                "State Management",
+                "Component Architecture",
+                "Frontend Testing",
+            ],
+        },
+        {
+            category: "Security & Compliance",
+            skills: [
+                "Authentication & Authorization (JWT, OAuth, OpenID)",
+                "Cryptography & Secure Certificate Management",
+                "Code Signing & Certificate Lifecycle",
+                "Identity Management & Access Control",
+                "Security Best Practices",
+                "Secure API Design",
+                "Machine Identity Management",
+                "Security Compliance & Auditing",
+            ],
+        },
+        {
+            category: "Cloud & Infrastructure",
+            skills: [
+                "Kubernetes & Docker",
+                "Cloud Infrastructure (AWS, Azure)",
+                "Azure DevOps & Azure SDKs & Databricks",
+                "AWS CodePipeline & Elastic Beanstalk & S3",
+                "Infrastructure as Code (Terraform, CloudFormation)",
+                "Load Testing (Locust)",
+            ],
+        },
+        {
+            category: "Databases & Data",
+            skills: [
+                "Postgres",
+                "MongoDB",
+                "Cassandra",
+                "Elasticsearch",
+                "Redis",
+                "Database Design & Optimization",
+            ],
+        },
+        {
+            category: "DevOps & Automation",
+            skills: [
+                "Automation & CI/CD",
+                "Testing (Unit, Integration, End-to-End)",
+                "Monitoring & Logging (Splunk, Datadog, New Relic)",
+                "Linux / Unix (Ubuntu, Mariner)",
+            ],
+        },
+    ],
+    experience: [
+        {
+            title: "Senior Software Engineer",
+            company: "NBC Universal",
+            period: "January 2025 - Present",
+            achievements: [
+                "Developing mission-critical backend platform infrastructure supporting NBC Universal's coverage of the 2026 Winter Olympics and 2026 NFL Super Bowl, ensuring high-availability and scalability for global sporting event broadcasts",
+                "Collaborated in the migration of legacy TypeScript backend systems to Golang, modernizing NBC Universal's video data platform that serves high-profile clients including Peacock and various frontend applications",
+                "Engineered scalable GraphQL applications supporting large-scale live data events, ensuring high availability and security within cloud-native architecture",
+                "Developed GraphQL APIs for real-time event management and data analysis, optimizing for performance and throughput",
+                "Key participant in migration from legacy TypeScript systems to Golang, integrating cryptographic protocols and security features to safeguard data integrity and access control",
+                "Automated deployment pipelines with Docker and Kubernetes, supporting secure, consistent environments across development and production",
+                "Collaborated on integrating legacy systems with modern GraphQL platforms, emphasizing security, monitoring, and system robustness",
+            ],
+        },
+        {
+            title: "Software Engineer",
+            company: "American Express",
+            period: "August 2023 - November 2024",
+            achievements: [
+                "Built event-driven APIs with RESTful and gRPC interfaces, emphasizing secure authentication with JWT, OAuth, and identity management",
+                "Constructed CLI tools with Golang and Cobra to automate security workflows, data processing, and monitoring",
+                "Optimized concurrent goroutines for handling multiple API requests securely, boosting system throughput",
+                "Deployed microservices on Docker and Kubernetes, ensuring high availability and secure deployment",
+                "Integrated Elasticsearch for fast querying and implemented security logging with Splunk and Datadog",
+            ],
+        },
+        {
+            title: "Software Engineer",
+            company: "Microsoft",
+            period: "December 2022 - June 2023",
+            achievements: [
+                "Developed automated testing frameworks for Azure APIs and Kubernetes integrations using Golang and Azure SDKs, ensuring security compliance",
+                "Automated Azure DevOps pipelines with Golang SDKs, reducing pipeline times by over 75%, with a focus on secure CI/CD workflows",
+                "Enhanced security of container images by migrating to Mariner Linux, improving system security and performance",
+                "Practiced Agile methodologies, including pair programming and story refinement, to ensure secure development practices",
+                "Contributed to automated testing for Azure API and Kubernetes environments, emphasizing security protocols",
+            ],
+        },
+        {
+            title: "Software Engineer",
+            company: "Starbucks",
+            period: "November 2020 - December 2022",
+            achievements: [
+                "Created REST APIs for data extraction from Azure Data Lakes and PySpark-transformed data for real-time analytics with a focus on security",
+                "Designed and deployed containerized applications with Docker and Kubernetes to ensure high availability and security",
+                "Implemented monitoring and alerting using Datadog and New Relic to proactively detect and resolve security issues",
+                "Built unit and integration tests to reinforce software security standards",
+                "Conducted load testing with Locust to validate system robustness under high traffic scenarios",
+            ],
+        },
+        {
+            title: "Software Engineer",
+            company: "Revature",
+            period: "April 2020 - November 2020",
+            achievements: [
+                "Designed and developed a responsive frontend application using TypeScript, React, and SCSS for enhanced user experience and modern web standards",
+                "DevOps deployment pipelines on AWS using CodePipeline, Elastic Beanstalk, and S3 for secure continuous delivery of microservices",
+                "Built RESTful Java APIs with Spring Boot and managed databases with Hibernate on AWS RDS",
+                "Constructed and hosted PostgreSQL and NoSQL databases for scalable data storage with a focus on security and data integrity",
+            ],
+        },
+    ],
+    education: [
+        {
+            degree: "Bachelor of Science in Computer Science",
+            institution:
+                "California State University San Bernardino, San Bernardino",
+            period: "September 2016 - December 2018",
+        },
+        {
+            degree: "Certificate in Data Analytics",
+            institution: "University of California Irvine, Irvine",
+            period: "August 2019 - February 2020",
+        },
+    ],
+    strengths: [
+        "Versatile Engineering - Proven track record of quickly learning and adapting to new technologies, frameworks, and programming languages, enabling rapid delivery of solutions across diverse tech stacks.",
+        "API & Microservices Security - Expertise in designing secure APIs with OAuth, JWT, and best security practices for identity management and access control.",
+        "Cloud & Infrastructure Automation - Proficient in deploying, managing, and automating cloud infrastructure in AWS and Azure environments, emphasizing security and high availability.",
+        "Cryptography & Certificate Management - Hands-on experience with cryptographic techniques, Code Signing and certificate lifecycle management to enhance platform security.",
+    ],
+};
