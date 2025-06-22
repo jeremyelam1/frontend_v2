@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -10,21 +9,21 @@ import Footer from "./components/Footer";
 import { resumeData } from "./data/resume";
 
 const App: React.FC = () => {
-    return (
-        <div className="min-h-screen bg-dark-900">
-            <Header contact={resumeData.contact} />
+  return (
+    <div className="min-h-screen bg-dark-900">
+      <Header contact={resumeData.contact} />
 
-            <main className="pt-16">
-                <Hero data={resumeData} />
-                <About data={resumeData} />
-                <Experience experiences={resumeData.experience} />
-                <Skills skills={resumeData.skills} />
-                <Education education={resumeData.education} />
-            </main>
+      <main className="pt-16">
+        <Hero data={resumeData} />
+        <About data={resumeData} />
+        <Experience experiences={resumeData.experience} />
+        <Skills skills={resumeData.skills} />
+        <Education education={resumeData.education} />
+      </main>
 
-            <Footer contact={resumeData.contact} />
-        </div>
-    );
+      <Footer contact={resumeData.contact} />
+    </div>
+  );
 };
 
 export default App;
